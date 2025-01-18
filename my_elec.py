@@ -8,8 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Replace 'folder_path' with the path to your folder containing PDF files
-folder_path = r'C:\\New folder\\dec2024'  # Use raw string for the path
-
+folder_path = r'C:\\New folder\\dec2024'  
 data_dicts = []
 
 for filename in os.listdir(folder_path):
